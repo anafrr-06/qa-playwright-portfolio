@@ -1,0 +1,26 @@
+{
+  "name": "saas-dashboard-starter",
+  "version": "1.0.0",
+  "description": "SaaS Dashboard with comprehensive Playwright test suite",
+  "scripts": {
+    "dev": "npm run dev --prefix app",
+    "build": "npm run build --prefix app",
+    "preview": "npm run preview --prefix app",
+    "test": "playwright test",
+    "test:e2e": "playwright test tests/e2e",
+    "test:forms": "playwright test tests/forms",
+    "test:a11y": "playwright test tests/accessibility",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
