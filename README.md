@@ -2,6 +2,26 @@
 
 Production-ready SaaS dashboard with comprehensive Playwright test suite (172 tests).
 
+## Screenshots
+
+### Dashboard
+![Dashboard](docs/screenshots/02-dashboard.png)
+
+### Dark Mode
+![Dashboard Dark](docs/screenshots/03-dashboard-dark.png)
+
+### Login
+![Login](docs/screenshots/01-login.png)
+
+### Settings
+![Settings](docs/screenshots/04-settings.png)
+
+### Mobile View
+<img src="docs/screenshots/05-mobile.png" alt="Mobile" width="300">
+
+### Test Report
+![Test Report](docs/screenshots/06-test-report.png)
+
 ## What's Inside
 
 **Application** (`/app`)
